@@ -45,7 +45,6 @@ let persons = [
     const id = Number(request.params.id)
     const person = persons.find(person => person.id === id)
   
-
     //Tehtävän 3.2 tapauksessa löytyy 
     //Ei mitään sillä id=5 eli status 404
     
